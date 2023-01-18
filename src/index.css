@@ -7,7 +7,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Argiss';
+  src: local(Argiss), url("./asset/Font/argiss/Argiss.otf") format('truetype');
+}
+
+@font-face {
+  font-family: 'pepsi';
+  src: local(pepsi) url("./asset/Font/pepsi/PEPSI_pl.ttf") format('truetype');
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .ad {
+    display: none !important;
+  }
 }
